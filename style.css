@@ -1,0 +1,437 @@
+html{
+  background-color: lightgray; 
+  overflow: hidden;
+  height: 100%;
+/*  border-bottom: 0;*/
+  z-index: 1;    
+}
+body{
+  background-color: lightgray;
+  overflow: hidden;
+  height: 100%;
+    margin: auto;
+    transform: translateZ(0)ж
+}
+.header{
+  display: block;    
+  z-index:60;
+  position:absolute;
+  height: 65px;
+  width: 100%;    
+  margin: auto;    
+  background-color: lightblue;
+  line-height: 30px;    
+  text-align:center;
+    
+}
+.logotip{
+    display: block;
+    position:absolute;
+    height: 54px;
+    width: 57px;
+    background-image: url("img/logo5.jpg"); 
+    margin-top: 5px;
+    margin-left: 30px; 
+    box-shadow:  2px 2px 6px #402F35;
+    cursor: pointer;
+    
+    z-index:60;
+}
+.menu{
+  display: block;
+  top: 80px;    
+  width: 15%;
+  height: 450px;
+/*  margin: auto;    */
+  position: fixed;
+}
+.menu_item{
+    display: block;
+    width: 100%;
+    height: 30px;
+/*    background-color: azure;*/
+    position:relative;
+    margin: auto;
+   
+   
+ }
+.menu_href{
+    display: block;
+    position: relative;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    margin: auto;
+    margin-top: 10px;
+    
+    
+    
+    font-size: 1.1em;    
+/*    background-color: aliceblue;*/
+}
+
+.parallax{
+  scroll-behavior: smooth;
+  color: white;    
+  perspective: 1px;
+
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y:auto; 
+}
+
+.parallax-layer{
+  display: inline-block;    
+  position:absolute; 
+  right: 0;
+  bottom: -50%;
+  width: 100%;
+  left: -8px;   
+  margin: 0;
+  padding: 0;    
+ 
+}
+.parallax-layer-2{
+  display: inline-block;    
+  position:absolute; 
+  
+  width: 100%;
+  left: 65%;   
+  margin: 0;
+  padding: 0;    
+ 
+}
+.parallax-layer-3{
+  display: inline-block;    
+  position:absolute; 
+  
+  width: 100%;
+  left: 0;   
+  margin: 0;
+  padding: 0;    
+ 
+}
+.parallax-layer-4{
+  display: inline-block;    
+  position:absolute; 
+  
+  width: 100%;
+  left: -8px;
+  bottom: -50%;   
+  margin: 0;
+  padding: 0;    
+}
+.parallax__layer--base {
+  display: inline-block; 
+  position: absolute;
+  height: 60px;
+  width: 250px;
+  top: 50px;
+  margin-left: -25px;    
+  text-align: center;    
+  
+  transform: translateZ(0);
+}
+.parallax__layer--base-2{
+  display: inline-block; 
+  position: absolute;
+  height: 60px;
+  width: 250px;
+  top: 620px;
+  margin-left: -25px;    
+  text-align: center;    
+  
+  transform: translateZ(0);
+}
+.parallax__layer--base-3{
+  display: inline-block; 
+  position: absolute;
+  height: 60px;
+  width: 250px;
+  top: 35%;
+  left: 250px;       
+  margin:0;
+  padding-top: 100px;    
+  text-align: center;    
+  
+  transform: translateZ(0);
+}
+.parallax__layer--base-4{
+  display: inline-block; 
+  position: absolute;
+  height: 60px;
+  width: 250px;
+  top: 55%;
+  left: 66%;       
+  margin-left:-25px;
+  text-align: center;    
+  padding-top: 100px;    
+  transform: translateZ(0);
+}
+.parallax__layer--base-5{
+  display: inline-block; 
+  position: absolute;
+  height: 60px;
+  width: 250px;
+  top: 90%;
+  left: 10%;       
+  margin-left:-25px;
+  text-align: center;    
+  
+  transform: translateZ(0);
+}
+
+.text1{
+  display: inline-block; 
+  position: absolute;
+  height: 100%;
+  width: 550px;
+  top: 100px;
+  padding-left: -40px ;    
+  text-align:justify;    
+  color:black;
+  transform: translateZ(0);
+  z-index:55;    
+}
+.text2{
+  display: inline-block; 
+  position: absolute;
+  height: 100%;
+  width: 550px;
+  top: 100px;
+  left: -60%;
+  text-align:justify;    
+  color:black;
+  transform: translateZ(0);
+  z-index:55;    
+}
+.text3{
+  display: inline-block; 
+  position: absolute;
+  height: 100%;
+  width: 550px;
+  margin-top:23px;
+  left: -150px;  
+  text-align:justify;    
+  color:black;
+  transform: translateZ(0);
+  z-index:55;    
+}
+.text4{
+  display: inline-block; 
+  position: absolute;
+  height: 100%;
+  width: 550px;
+  margin-top:23px;
+  top: 100px;    
+  left: -60%;  
+  text-align:justify;  
+  padding-top: 90px;    
+  color:black;
+  transform: translateZ(0);
+  z-index:55;    
+}
+.2-h1{
+ display: inline-block;
+ position:absolute;    
+ margin-top: 600px;
+ margin-left: 380px;      
+}
+.3-h1{
+ display: inline-block;
+ position:absolute;    
+ margin-top: 600px;
+ margin-left: 380px;      
+}
+.4-h1{
+ display: inline-block;
+ position:absolute;    
+ margin-top: 600px;
+ margin-left: 380px;      
+}
+
+h1{
+  color:black;
+}
+.parallax__layer--back{
+/*  top:*/
+  top: -214.5px;        
+  height: 15%;
+  background-image: repeating-linear-gradient( rgb(141, 176, 209, 102), rgb(141,176,102) 30px, lightblue 30px, lightblue 70px );
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+}
+
+.parallax__layer--back-2{
+    top: 24.9%;
+    height: 15%;
+    background-image: repeating-linear-gradient( 45deg, rgb(209, 154, 100), rgb(209, 154, 100) 30px, rgb(255, 189, 122) 30px, rgb(255, 189, 122) 70px );
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+}
+
+.parallax__layer--back-3{
+    top: 54.85%;
+    height: 15%;
+    background-image: repeating-linear-gradient( rgb(141, 176, 209, 102),   rgb(141,176,102) 30px, lightblue 30px, lightblue 70px );
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+}
+.parallax__layer--back-4{
+    top: 84.83%;
+    height: 15%;
+    background-image: repeating-linear-gradient( 45deg, rgb(209, 154, 100), rgb(209, 154, 100) 30px, rgb(255, 189, 122) 30px, rgb(255, 189, 122) 70px );
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+}
+
+.foto{
+    display: inline-block;
+    position: absolute;
+    width: 277px;
+    height: 207px;
+    left: 850px;
+    top: 200px;
+    opacity: 0.9;
+    
+/*    transform:rotate(15deg);*/
+}
+.foto1{
+    border-style: groove;
+    transform-origin:center bottom;
+    background-image: url(img/windows.png);
+    transform:rotate(-20deg);
+}
+.foto2{
+    transform-origin: center bottom;;
+    background-image: url(img/linux.png);
+    transform: rotate(15deg);
+    border-style: groove;
+/*    transform:rotate(15deg);*/
+}
+.foto3{
+    background-image: url(img/macOs.png);
+    transform-origin: center bottom;;
+    transform:rotate(40deg);
+    border-style: groove;
+/*    transform:rotate(15deg);*/
+}
+.foto4{
+    background-image: url(img/win.jpg);
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    width: 277px;
+    height: 207px;
+    left: 15%;
+    top: 19%;
+    margin: auto;
+    opacity: 0.9;
+    transform-origin: center;
+    transform:rotate(-15deg);
+    border-style: groove;
+    
+}
+.foto5{
+    background-image: url(img/lin.png);
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    width: 277px;
+    height: 207px;
+    left: 850px;
+    top: 43%;
+    margin: auto;
+    opacity: 0.9;
+    transform-origin: center;
+    transform:rotate(15deg);
+    border-style: groove;
+    
+}
+.foto6{
+    background-image: url(img/mac.png);
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    width: 277px;
+    height: 207px;
+    left: 15%;
+    top: 63%;
+    margin: auto;
+    opacity: 0.9;
+    transform-origin: center;
+    transform:rotate(-15deg);
+    border-style: groove;
+}
+
+.parallax-group{
+    position:relative;
+    font: 120% / 1.5 Arial;
+    min-height: 400vh;
+    line-height: 1.2em;
+    transform-style: preserve-3d;
+    
+    
+}
+nav, ul{
+    list-style: none; 
+    margin: auto;
+    padding: 0;
+}
+a{
+  text-decoration: none;
+  text-align: left;
+  line-height: 30px;  
+  color: #456f95;
+  padding-left: 30px;    
+}
+.container{
+    display: block;
+    position: relative;
+    z-index: 20;
+}
+.all{
+    display: block;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    box-shadow:  4px 4px 8px #402F35; 
+    background-color: aliceblue;
+    z-index: 51;
+    
+}
+.menu1{
+    display: block;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 277px;
+    margin: auto;
+/*    z-index: 49;*/
+}
+.prozrachnost{
+   padding-right: 3px;    
+   width: 20px;
+   height: 20px;    
+   opacity: 0.4;
+   filter: alpha(opacity=40); /*для IE8 и более ранних версий*/   
+}
+.foot{
+    display: inline-block;
+    position: absolute;
+    left:0;
+    height: 160px;
+    width:100%;
+    top:88%;
+    background-image: url(img/fon.jpg);
+    background-size: cover;
+    border-style: groove;
+/*    margin-bottom: 15%;*/
+    padding-left: 5px;
+    padding-top: 5px;
+    text-align: center;
+    color: green;
+}
+
